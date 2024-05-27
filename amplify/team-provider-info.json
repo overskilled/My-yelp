@@ -1,0 +1,34 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-myyield-dev-f555b-authRole",
+      "UnauthRoleArn": "arn:aws:iam::858490561294:role/amplify-myyield-dev-f555b-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::858490561294:role/amplify-myyield-dev-f555b-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-myyield-dev-f555b-deployment",
+      "UnauthRoleName": "amplify-myyield-dev-f555b-unauthRole",
+      "StackName": "amplify-myyield-dev-f555b",
+      "StackId": "arn:aws:cloudformation:eu-north-1:858490561294:stack/amplify-myyield-dev-f555b/6b90ea20-1c2d-11ef-809f-0ec372348e5e",
+      "AmplifyAppId": "d21m98jo1lmum"
+    },
+    "categories": {
+      "auth": {
+        "myyield2ab21628": {},
+        "myyield86219cbb": {}
+      },
+      "function": {
+        "myyield2ab21628DefineAuthChallenge": {
+          "deploymentBucketName": "amplify-myyield-dev-f555b-deployment",
+          "s3Key": "amplify-builds/myyield2ab21628DefineAuthChallenge-394f5959654744652b6e-build.zip"
+        },
+        "myyield2ab21628CreateAuthChallenge": {
+          "deploymentBucketName": "amplify-myyield-dev-f555b-deployment",
+          "s3Key": "amplify-builds/myyield2ab21628CreateAuthChallenge-686341476b5948754572-build.zip"
+        }
+      },
+      "api": {
+        "myyield": {}
+      }
+    }
+  }
+}
