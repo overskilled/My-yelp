@@ -1,10 +1,10 @@
 {
   "version": "1",
   "cognitoConfig": {
-    "identityPoolName": "myyield2ab21628_identitypool_2ab21628",
+    "identityPoolName": "myyield86219cbb_identitypool_86219cbb",
     "allowUnauthenticatedIdentities": false,
-    "resourceNameTruncated": "myyiel2ab21628",
-    "userPoolName": "myyield2ab21628_userpool_2ab21628",
+    "resourceNameTruncated": "myyiel86219cbb",
+    "userPoolName": "myyield86219cbb_userpool_86219cbb",
     "autoVerifiedAttributes": [
       "email"
     ],
@@ -31,26 +31,15 @@
     "userpoolClientReadAttributes": [
       "email"
     ],
-    "userpoolClientLambdaRole": "myyiel2ab21628_userpoolclient_lambda_role",
+    "userpoolClientLambdaRole": "myyiel86219cbb_userpoolclient_lambda_role",
     "userpoolClientSetAttributes": false,
-    "sharedId": "2ab21628",
-    "resourceName": "myyield2ab21628",
+    "sharedId": "86219cbb",
+    "resourceName": "myyield86219cbb",
     "authSelections": "identityPoolAndUserPool",
     "useDefault": "default",
     "usernameAttributes": [
       "email"
     ],
-    "triggers": {
-      "DefineAuthChallenge": [
-        "captcha-define-challenge"
-      ],
-      "CreateAuthChallenge": [
-        "captcha-create-challenge"
-      ],
-      "VerifyAuthChallengeResponse": [
-        "captcha-verify"
-      ]
-    },
     "userPoolGroupList": [],
     "serviceName": "Cognito",
     "usernameCaseSensitive": false,
