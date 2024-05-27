@@ -2,19 +2,20 @@
 ***
 
 ## Task
-TODO - What is the problem? And where is the challenge?
+this project required us to update and old code base and initialise aws amplify to it. Then we had to set up amplify authentification together with amplify api to link our backend to our app.
 
 ## Description
-TODO - How have you solved the problem?
+To solve this probleme, we create an AWS IAM user with amplify administration permissions. Then initialise our amplify environment, the set up amplify auth and API and push all that to our cloud backend environment. All this was done following the guide below :
+- https://docs.amplify.aws/gen1/react/start/getting-started/introduction
 
 ## Installation
-TODO - How to install your project? npm install? make? make re?
+To install this project, install the dependencies using the command :
+    `npm install`
+Then you can start the project using the command :
+    `npm start`
 
 ## Usage
-TODO - How does it work?
-```
-./my_project argument1 argument2
-```
+To use this project, after installation you will have a url to the web page. From there you can navigate stress-free on the app.
 
 ### The Core Team
 
